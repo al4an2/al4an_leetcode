@@ -1,8 +1,8 @@
 # LeetCode Practice
 
-This repo is just a lightweight journal of interview/LeetCode problems. Keep it simple:
+A lightweight journal of LeetCode/LeetCode-style problems.
 
-- Put every solution in the `tasks/` folder, one file per problem so it is easy to find later.
-- At the top of each file leave a short note with the original task link (e.g., `# https://leetcode.com/problems/two-sum/`) to remember the source and reread the statement fast.
-
-That’s all—use any language you want, just keep the files inside `tasks/` and include the reference link for each problem.
+- One file per problem in `tasks/` for easy lookup.
+- Filenames match the LeetCode task titles.
+- If a filename doesn’t match, I drop a quick note with the original link so I can jump back to the statement fast.
+- I plan to add brief descriptions to some problems soon.
