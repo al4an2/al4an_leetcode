@@ -1,3 +1,4 @@
+#O(n3)
 class Solution:
     def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
         MOD = 10**9 + 7
@@ -14,5 +15,5 @@ class Solution:
             for j in range(1, one+1):
                 dp0[i][j] = sum(dp1[i - k][j] for k in range(1, min(limit, i) + 1)) % MOD
                 dp1[i][j] = sum(dp0[i][j - k] for k in range(1, min(limit, j) + 1)) % MOD
-                
+
         return (dp0[zero][one] + dp1[zero][one]) % MOD
